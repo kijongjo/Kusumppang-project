@@ -1,0 +1,20 @@
+CSS/box-sizing/박스의 크기를 어떤 것을 기준으로 계산할지를 정하는 속성이다. 
+
+
+box-sizing은 박스의 크기를 어떤 것을 기준으로 계산할지를 정하는 속성이다. 
+기본값 : content-box
+상속 : No
+애니메이션 : No
+
+
+content-box : 콘텐트 영역을 기준으로 크기를 정합니다.
+border-box : 테두리를 기준으로 크기를 정합니다.
+initial : 기본값으로 설정합니다.
+inherit : 부모 요소의 속성값을 상속받습니다.
+
+만약 width를 500px로 잡았다면 
+border-box는 테두리를 포함한 넓이가 500이고 
+content-box는 테두리를 포함하면 580이 된다.
+
+
+margin과 padding을 0을 주는 이유? 
